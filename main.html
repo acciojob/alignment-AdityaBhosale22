@@ -7,7 +7,77 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<h1>HTML Assignment #3</h1>
+    <hr>
+
+    <h2>Table 1: ID "table-1"</h2>
+    <table class="middle" id="table-1">
+        <tr>
+            <td id="t11">R1 C1</td>
+            <td id="t12">R1 C2</td>
+            <td id="t13" class="right">R1 C3 (Right)</td>
+        </tr>
+        <tr class="center">
+            <td>R2 C1 (Center)</td>
+            <td>R2 C2 (Center)</td>
+            <td class="right">R2 C3 (Center & Right)</td>
+        </tr>
+        <tr>
+            <td>R3 C1</td>
+            <td>R3 C2</td>
+            <td class="right">R3 C3 (Right)</td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+
+    <h2>Table 2: ID "table-2" with Colspan</h2>
+    <table class="middle" id="table-2">
+        <tr>
+            <td id="t21" colspan="6">
+                This is the first row, spanning all 6 columns (colspan="6").
+            </td>
+        </tr>
+        <tr>
+            <td>R2 C1</td><td>R2 C2</td><td>R2 C3</td><td>R2 C4</td><td>R2 C5</td><td>R2 C6</td>
+        </tr>
+        <tr>
+            <td>R3 C1</td><td>R3 C2</td><td>R3 C3</td><td>R3 C4</td><td>R3 C5</td><td>R3 C6</td>
+        </tr>
+        <tr>
+            <td>R4 C1</td><td>R4 C2</td><td>R4 C3</td><td>R4 C4</td><td>R4 C5</td><td>R4 C6</td>
+        </tr>
+        <tr>
+            <td>R5 C1</td><td>R5 C2</td><td>R5 C3</td><td>R5 C4</td><td>R5 C5</td><td>R5 C6</td>
+        </tr>
+        <tr>
+            <td>R6 C1</td><td>R6 C2</td><td>R6 C3</td><td>R6 C4</td><td>R6 C5</td><td>R6 C6</td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+
+    <h2>Table 3: ID "table-3" with Colors and Image</h2>
+    <table class="middle" id="table-3">
+        <tr class="green">
+            <td>Green R1 C1</td>
+            <td>Green R1 C2</td>
+            <td>Green R1 C3</td>
+        </tr>
+        <tr>
+            <td colspan="2">Text Cell</td>
+            <td id="t-image">
+                <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="A basic block diagram" style="width:100px; height:auto;">
+            </td>
+        </tr>
+        <tr class="blue">
+            <td>Blue R3 C1</td>
+            <td>Blue R3 C2</td>
+            <td>Blue R3 C3</td>
+        </tr>
+    </table>
     <script type="text/javascript" src="./script.js">
 </script>
 

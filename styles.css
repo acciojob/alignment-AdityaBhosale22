@@ -1,1 +1,33 @@
-/*  your css code here. If applicable */
+<style>
+        /* General Styling Requirements */
+        .middle {
+            border: 1px solid black;
+            border-collapse: collapse; /* Ensure borders are merged */
+            border-spacing: 1px; /* Required, although collapse usually overrides it */
+        }
+        .middle td, .middle th {
+            border: 1px solid black;
+            padding: 1px;
+        }
+
+        /* Specific Background Colors */
+        .green {
+            background-color: green;
+        }
+        .blue {
+            background-color: blue;
+        }
+
+        /* Specific Alignment Classes */
+        .center {
+            text-align: center;
+        }
+        .right {
+            text-align: right;
+        }
+
+        /* Webpage Heading Styling */
+        h1 {
+            text-align: center;
+        }
+    </style>
